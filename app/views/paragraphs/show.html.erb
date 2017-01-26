@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Chapter:</strong>
+  <%= @paragraph.chapter %>
+</p>
+
+<p>
+  <strong>Word count:</strong>
+  <%= @paragraph.word_count %>
+</p>
+
+<p>
+  <strong>Words:</strong>
+  <%= @paragraph.words %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @paragraph.body %>
+</p>
+
+<%= link_to 'Edit', edit_paragraph_path(@paragraph) %> |
+<%= link_to 'Back', paragraphs_path %>

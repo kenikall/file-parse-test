@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  chapter: one
+  word_count: 1
+  words: MyText
+  body: MyText
+
+two:
+  chapter: two
+  word_count: 1
+  words: MyText
+  body: MyText
